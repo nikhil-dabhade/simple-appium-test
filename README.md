@@ -16,4 +16,6 @@ To package your Appium tests for AWS Device Farm, you need maven installed on yo
 - The output of the above command will create a zip file under \<root of your project>/target/zip-with-dependencies.zip
   This zip file is the test input to AWS Device Farm and contains the test build output along with all the dependencies used by the tests. 
 
+# Steps to schedule a test run
+
 - To schedule a Appium Java TestNG test run on Device Farm, use the following instructions: https://docs.aws.amazon.com/devicefarm/latest/developerguide/how-to-create-test-run.html 
